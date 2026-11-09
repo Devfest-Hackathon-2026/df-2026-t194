@@ -1,0 +1,1986 @@
+{
+  "🦵 坂道・足への負担": {
+    "en": "🦵 Slopes & Leg Strain",
+    "zh": "🦵 坡度与腿部负担"
+  },
+  "🌤️ 時期・天候への配慮": {
+    "en": "🌤️ Season & Weather Consideration",
+    "zh": "🌤️ 季节与天气考量"
+  },
+  "累計の登り": {
+    "en": "Total Ascent",
+    "zh": "累计爬升"
+  },
+  "累計の下り": {
+    "en": "Total Descent",
+    "zh": "累计下降"
+  },
+  "希望プロンプトとの相対適合度スコア": {
+    "en": "Prompt Match Score",
+    "zh": "提示词匹配得分"
+  },
+  "Street View 画像から道幅・明るさ・歩道の有無を査定": {
+    "en": "Assess width, lighting, and sidewalks from Street View",
+    "zh": "通过街景评估路宽、亮度和人行道"
+  },
+  "累積標高差を測定し坂道負荷を判定": {
+    "en": "Measure elevation gain to evaluate slope strain",
+    "zh": "测量累计高差以评估坡度负担"
+  },
+  "太陽光・日陰率を太陽高度角から算出": {
+    "en": "Calculate sunlight and shade ratio from sun elevation",
+    "zh": "根据太阳高度角计算日照与遮阴率"
+  },
+  "選定理由とGoogle標準比較": {
+    "en": "Selection Reason vs. Google Standard",
+    "zh": "选定理由与Google标准对比"
+  },
+  "閉じる": {
+    "en": "Close",
+    "zh": "关闭"
+  },
+  "ご指定の要望": {
+    "en": "Your Request",
+    "zh": "您的指定要求"
+  },
+  "入力されたプロンプト": {
+    "en": "Entered Prompt",
+    "zh": "输入的提示词"
+  },
+  "Google標準ルートとの違い・選定理由": {
+    "en": "Differences from Google Route & Why",
+    "zh": "与Google标准路线的差异及选定理由"
+  },
+  "登り": {
+    "en": "Ascent",
+    "zh": "上坡"
+  },
+  "歩行者の安全性と快適性を最優先に設計した徒歩ルートです。": {
+    "en": "A walking route designed with top priority on pedestrian safety and comfort.",
+    "zh": "以行人的安全和舒适度为最高优先级设计的步行路线。"
+  },
+  "使用した検証ツール": {
+    "en": "Verification Tools Used",
+    "zh": "使用的验证工具"
+  },
+  "Google標準（最短直行）との比較": {
+    "en": "Comparison with Google Standard (Shortest Direct)",
+    "zh": "与Google标准路线（最短直达）的比较"
+  },
+  "快適・安全のポイント": {
+    "en": "Comfort & Safety Highlights",
+    "zh": "舒适与安全要点"
+  },
+  "タップで拡大": {
+    "en": "Tap to zoom",
+    "zh": "点击放大"
+  },
+  "歩道あり": {
+    "en": "Sidewalk available",
+    "zh": "有人行道"
+  },
+  "街灯あり": {
+    "en": "Streetlights available",
+    "zh": "有路灯"
+  },
+  "大通り": {
+    "en": "Main street",
+    "zh": "大马路"
+  },
+  "見通し良": {
+    "en": "Good visibility",
+    "zh": "视野良好"
+  },
+  "徒歩経路を作成できませんでした。": {
+    "en": "Could not create walking route.",
+    "zh": "无法生成步行路线。"
+  },
+  "ルート推定用の写真は合計100枚まで選べます。写真を分けて選択してください。": {
+    "en": "You can select up to 100 photos for route estimation. Please select photos in batches.",
+    "zh": "最多可选择100张照片用于路线估算。请分批选择照片。"
+  },
+  "撮影時刻順に並べました。撮影時刻がない写真はファイル日時順です。": {
+    "en": "Sorted by capture time. Photos without time use file date/time.",
+    "zh": "已按拍摄时间排序。无拍摄时间的照片将按文件修改时间排序。"
+  },
+  "写真の位置が削除されている場合は、位置情報を含めて書き出す必要があります。": {
+    "en": "If photo location data was removed, you need to export including location info.",
+    "zh": "如果照片位置信息已被删除，则需包含位置信息导出。"
+  },
+  "掲載する代表写真を2〜5枚選んでください。ルート推定には全写真の位置を使います。": {
+    "en": "Select 2-5 featured photos to display. All photo locations are used for route estimation.",
+    "zh": "请选择2-5张代表性照片展示。路线估算将使用所有照片的位置。"
+  },
+  "コース名、ニックネーム、エリアをすべて入力してください。": {
+    "en": "Please enter course name, nickname, and area.",
+    "zh": "请输入路线名称、昵称和区域。"
+  },
+  "徒歩経路の生成完了を待ち、地図で確認してください。": {
+    "en": "Wait for walking route generation and check it on the map.",
+    "zh": "请等待步行路线生成并在地图上确认。"
+  },
+  "AI公認ウォーカー": {
+    "en": "AI Certified Walker",
+    "zh": "AI认证漫步者"
+  },
+  "新着ウォーカー": {
+    "en": "New Walker",
+    "zh": "新晋漫步者"
+  },
+  "たった今": {
+    "en": "Just now",
+    "zh": "刚刚"
+  },
+  "道中の名所を巡る風流な散歩絵巻です。": {
+    "en": "A scenic stroll scroll visiting landmarks along the way.",
+    "zh": "一幅游历沿途名胜的风雅散步画卷。"
+  },
+  "写真の位置情報から自動作成された散歩ルートです。": {
+    "en": "A stroll route automatically created from photo locations.",
+    "zh": "根据照片位置信息自动生成的散步路线。"
+  },
+  "街道歩き": {
+    "en": "Historic Road Walk",
+    "zh": "古道漫步"
+  },
+  "共有に失敗しました。接続を確認して再試行してください。": {
+    "en": "Sharing failed. Please check your connection and retry.",
+    "zh": "分享失败。请检查网络连接后重试。"
+  },
+  "散歩シェア": {
+    "en": "Stroll Share",
+    "zh": "散步分享"
+  },
+  "写真で紡ぐ街道の記録": {
+    "en": "Historic road records spun by photos",
+    "zh": "用照片编织的古道记忆"
+  },
+  "写真でつながるみんなの散歩コース": {
+    "en": "Community stroll courses connected by photos",
+    "zh": "通过照片连接的大家的散步路线"
+  },
+  "みんなの散歩": {
+    "en": "Community Strolls",
+    "zh": "大家都在走"
+  },
+  "＋ 写真から作成": {
+    "en": "＋ Create from Photos",
+    "zh": "＋ 从照片创建"
+  },
+  "まだ散歩絵巻の記録がありません": {
+    "en": "No stroll scroll records yet",
+    "zh": "尚无散步画卷记录"
+  },
+  "まだ散歩ルートがありません": {
+    "en": "No stroll routes yet",
+    "zh": "尚无散步路线"
+  },
+  "あなたが歩いた風情ある名所や街道の写真を投稿して、最初の散歩絵巻を記してみましょう。": {
+    "en": "Post photos of scenic spots and historic roads you've walked to create your first stroll scroll.",
+    "zh": "发布你走过的风情名胜或古道照片，记录下第一幅散步画卷吧。"
+  },
+  "あなたの散歩コースを最初のルートとして登録してみましょう！無加工の写真や立ち寄りスポットを添えて、みんなと共有できます。": {
+    "en": "Register your stroll course as the first route! Share unprocessed photos and waypoints with everyone.",
+    "zh": "快来登记你的散步路线作为第一条路线吧！附上原图和途经打卡点与大家分享。"
+  },
+  "最初のルートを作成": {
+    "en": "Create First Route",
+    "zh": "创建第一条路线"
+  },
+  "現在のマップを取り込む": {
+    "en": "Import Current Map",
+    "zh": "导入当前地图"
+  },
+  "人気順 (いいね)": {
+    "en": "Most Liked",
+    "zh": "点赞最多"
+  },
+  "歩かれた数順": {
+    "en": "Most Walked",
+    "zh": "步行次数最多"
+  },
+  "距離の近い順": {
+    "en": "Nearest Distance",
+    "zh": "距离最近"
+  },
+  "残り": {
+    "en": "Remaining ",
+    "zh": "剩余"
+  },
+  "前の写真へ": {
+    "en": "Previous Photo",
+    "zh": "上一张照片"
+  },
+  "前の写真": {
+    "en": "Previous",
+    "zh": "上一张"
+  },
+  "次の写真へ": {
+    "en": "Next Photo",
+    "zh": "下一张照片"
+  },
+  "次の写真": {
+    "en": "Next",
+    "zh": "下一张"
+  },
+  "」を経由地に追加": {
+    "en": "\" added to waypoints",
+    "zh": "\" 添加为途经点"
+  },
+  "ここへ歩く": {
+    "en": "Walk Here",
+    "zh": "走到这里"
+  },
+  "人が歩いた（自己申告）": {
+    "en": "Walked by user (self-reported)",
+    "zh": "用户走过（自报）"
+  },
+  "このコースを歩く": {
+    "en": "Walk This Course",
+    "zh": "走这条路线"
+  },
+  "友達に送る共有リンクをコピー": {
+    "en": "Copy share link for friends",
+    "zh": "复制分享链接发给好友"
+  },
+  "コピー済": {
+    "en": "Copied",
+    "zh": "已复制"
+  },
+  "シェア": {
+    "en": "Share",
+    "zh": "分享"
+  },
+  "ルートが共有されました！": {
+    "en": "Route shared!",
+    "zh": "路线已分享！"
+  },
+  "共有リンクがクリップボードにコピーされました。LINEやXで友達に送ると、相手の地図上にこの散歩コースが即座に表示されます。": {
+    "en": "Share link copied to clipboard. Send it to friends on LINE or X to instantly show this stroll course on their map.",
+    "zh": "分享链接已复制到剪贴板。通过LINE或X发送给好友，即可在对方的地图上立即显示此散步路线。"
+  },
+  "このコースを歩く (マップに適用)": {
+    "en": "Walk This Course (Apply to Map)",
+    "zh": "走这条路线（应用到地图）"
+  },
+  "みんなの散歩一覧で確認": {
+    "en": "Check in Community Strolls",
+    "zh": "在大家的散步列表中查看"
+  },
+  "写真や立ち寄りスポット（2〜5箇所）": {
+    "en": "Photos or waypoints (2-5 locations)",
+    "zh": "照片或途经点（2-5个位置）"
+  },
+  "写真から自動でコースが繋がり、名称やメモも自由に編集できます": {
+    "en": "Courses link automatically from photos, and names/notes are fully editable",
+    "zh": "照片自动连接成路线，名称和备注可自由编辑"
+  },
+  "マップを取り込む": {
+    "en": "Import Map",
+    "zh": "导入地图"
+  },
+  "ファイルから写真原本を選択（GPS付き・2〜100枚）:": {
+    "en": "Choose original photo files (GPS, 2–100 files):",
+    "zh": "选择照片原始文件（含GPS，2–100张）："
+  },
+  "※ 写真ライブラリから選ぶと端末の仕様で位置情報が消去されるため、必ず「ファイル」から原本を選択してください。全写真のGPSから撮影順に経路を推定します。": {
+    "en": "* Selecting from photo library erases location data due to device specs. Always select originals from 'Files'. Routes are estimated in capture order using GPS from all photos.",
+    "zh": "* 由于设备限制，从相册选择会清除位置信息，请务必从“文件”中选择原图。将根据所有照片的GPS按拍摄顺序估算路线。"
+  },
+  "写真のGPSを読み込んでいます…": {
+    "en": "Reading photo GPS...",
+    "zh": "正在读取照片GPS..."
+  },
+  "投稿は14日間掲載されます。投稿したブラウザからタイトル・説明の編集と削除ができます。ブラウザのデータを削除すると管理できなくなります。": {
+    "en": "Posts are displayed for 14 days. You can edit title/description or delete from the posting browser. Deleting browser data disables management.",
+    "zh": "发布内容将展示14天。您可从发布时的浏览器编辑标题、说明或删除。删除浏览器数据将无法进行管理。"
+  },
+  "徒歩経路を作成し、クラウドへ投稿しています…": {
+    "en": "Creating walking route and posting to cloud...",
+    "zh": "正在生成步行路线并发布至云端..."
+  },
+  "写真から推定した徒歩経路": {
+    "en": "Walking route estimated from photos",
+    "zh": "根据照片估算的步行路线"
+  },
+  "撮影地点を撮影順に通る推定経路です。青線を確認し、GPS位置がずれていれば番号ピンをドラッグして補正できます。": {
+    "en": "Estimated route passing through shooting points in order. Check the blue line; drag numbered pins to correct if GPS is off.",
+    "zh": "按拍摄顺序依次通过拍摄点的估算路线。请检查蓝线，若GPS位置偏移可拖动编号图钉进行修正。"
+  },
+  "道に沿った徒歩経路を生成しています…": {
+    "en": "Generating walking route along roads...",
+    "zh": "正在沿道路生成步行路线..."
+  },
+  "すべてクリア": {
+    "en": "Clear All",
+    "zh": "全部清除"
+  },
+  "GPSのみ": {
+    "en": "GPS Only",
+    "zh": "仅GPS"
+  },
+  "投稿に掲載する": {
+    "en": "Publish to Post",
+    "zh": "发布到动态"
+  },
+  "このスポットを削除": {
+    "en": "Delete this spot",
+    "zh": "删除此地点"
+  },
+  "おすすめポイント・一言メモ": {
+    "en": "Highlights & Quick Note",
+    "zh": "推荐看点与简短备注"
+  },
+  "コース名": {
+    "en": "Course Name",
+    "zh": "路线名称"
+  },
+  "例: キャットストリート裏の隠れ家カフェ散歩": {
+    "en": "e.g., Hidden Cafe Walk behind Cat Street",
+    "zh": "例：猫街背后的隐秘咖啡馆漫步"
+  },
+  "あなたのニックネーム": {
+    "en": "Your Nickname",
+    "zh": "你的昵称"
+  },
+  "エリア": {
+    "en": "Area",
+    "zh": "区域"
+  },
+  "おすすめメモ・一言:": {
+    "en": "Recommended Note:",
+    "zh": "推荐备注："
+  },
+  "例: 人通りが少なくて夕暮れの風が気持ちいいコースです。": {
+    "en": "e.g., Low pedestrian traffic with a pleasant evening breeze.",
+    "zh": "例：行人较少，傍晚微风非常舒服的路线。"
+  },
+  "🚀 散歩ルートを公開＆共有リンクを発行": {
+    "en": "🚀 Publish Walk Route & Generate Share Link",
+    "zh": "🚀 公开散步路线并生成分享链接"
+  },
+  "保存できませんでした。再試行してください。": {
+    "en": "Could not save. Please try again.",
+    "zh": "保存失败，请重试。"
+  },
+  "歩いた記録済み": {
+    "en": "Walk Recorded",
+    "zh": "已记录步行"
+  },
+  "歩いたと記録": {
+    "en": "Record as Walked",
+    "zh": "记录为已走过"
+  },
+  "散歩投稿を編集": {
+    "en": "Edit Walk Post",
+    "zh": "编辑散步动态"
+  },
+  "散歩投稿を削除": {
+    "en": "Delete Walk Post",
+    "zh": "删除散步动态"
+  },
+  "歩いた記録": {
+    "en": "Walk Record",
+    "zh": "步行记录"
+  },
+  "タイトル": {
+    "en": "Title",
+    "zh": "标题"
+  },
+  "投稿タイトル": {
+    "en": "Post Title",
+    "zh": "动态标题"
+  },
+  "投稿の説明": {
+    "en": "Post Description",
+    "zh": "动态描述"
+  },
+  "写真と経路、掲載期限は変更されません。": {
+    "en": "Photos, route, and expiration date will not change.",
+    "zh": "照片、路线和发布期限保持不变。"
+  },
+  "この投稿を削除しますか？": {
+    "en": "Delete this post?",
+    "zh": "确定要删除这条动态吗？"
+  },
+  "元に戻せません。": {
+    "en": "This cannot be undone.",
+    "zh": "此操作无法撤销。"
+  },
+  "削除する": {
+    "en": "Delete",
+    "zh": "删除"
+  },
+  "このコースを歩いた記録を残しますか？": {
+    "en": "Record this course as walked?",
+    "zh": "要将此路线记录为已走过吗？"
+  },
+  "自己申告の記録です。GPSによる完歩確認は行っていません。": {
+    "en": "Self-reported record. GPS completion check is not performed.",
+    "zh": "自主上报的记录，不进行GPS完步确认。"
+  },
+  "記録する": {
+    "en": "Record",
+    "zh": "记录"
+  },
+  "キャンセル": {
+    "en": "Cancel",
+    "zh": "取消"
+  },
+  "雨よけ・地下道カバレッジ": {
+    "en": "Rain Shelter & Underpass Coverage",
+    "zh": "避雨及地下通道覆盖"
+  },
+  "屋根カバー": {
+    "en": "Roof Cover",
+    "zh": "屋檐覆盖"
+  },
+  "濡れる時間 -": {
+    "en": "Exposure Time -",
+    "zh": "淋雨时间 -"
+  },
+  "濡れ": {
+    "en": "Exposure",
+    "zh": "淋雨"
+  },
+  "わずか": {
+    "en": "Minimal",
+    "zh": "极少"
+  },
+  "通常ルート（ほぼ屋外）": {
+    "en": "Standard Route (Mostly Outdoor)",
+    "zh": "标准路线（几乎全露天）"
+  },
+  "% 屋根あり (": {
+    "en": "% Roofed (",
+    "zh": "% 有屋檐 ("
+  },
+  "本ルート（地下街・アーケード優先）": {
+    "en": "This Route (Priority: Underground & Arcades)",
+    "zh": "本路线（优先地下街与商业街）"
+  },
+  "駅直結コンコース・地下街通過": {
+    "en": "Direct Station Concourse & Underground Passages",
+    "zh": "直通车站大厅与地下街"
+  },
+  "商業施設アーケード軒下優先": {
+    "en": "Commercial Arcades & Eaves Priority",
+    "zh": "优先商业街及屋檐下"
+  },
+  "傘差し歩行ほぼ不要": {
+    "en": "Umbrella Almost Unnecessary",
+    "zh": "几乎无需打伞"
+  },
+  "スピード・最短直行メトリクス": {
+    "en": "Speed & Direct Metrics",
+    "zh": "速度与最快直达指标"
+  },
+  "最速タイム": {
+    "en": "Fastest Time",
+    "zh": "最快用时"
+  },
+  "迂回・標準ルート": {
+    "en": "Detour / Standard Route",
+    "zh": "绕路/标准路线"
+  },
+  "本ルート（大通り最短直進・信号ロス低減）": {
+    "en": "This Route (Main Street Shortest / Fewer Traffic Lights)",
+    "zh": "本路线（大路最短直行，减少红绿灯等待）"
+  },
+  "寄り道ゼロ・幹線直行": {
+    "en": "Zero Detours, Direct Arterial",
+    "zh": "零绕路，直达主干道"
+  },
+  "信号待ち回数最小化": {
+    "en": "Minimize Traffic Light Waits",
+    "zh": "最小化红绿灯等待次数"
+  },
+  "急ぎの移動に最適": {
+    "en": "Best for Urgent Commutes",
+    "zh": "最适合紧急出行"
+  },
+  "⛰️ この検索では標高を計測していません。坂道・足への負担を指定すると、Elevation APIの実測プロファイルを表示します。": {
+    "en": "⛰️ Elevation is not measured in this search. Specify slopes and physical strain to show Elevation API profiles.",
+    "zh": "⛰️ 本次搜索未测量海拔。指定坡度与体力消耗即可显示Elevation API的实际测量剖面。"
+  },
+  "高低差プロファイル": {
+    "en": "Elevation Profile",
+    "zh": "高低差剖面"
+  },
+  "m 少ない": {
+    "en": "m Less",
+    "zh": "米 较少"
+  },
+  "標準ルート（実測）": {
+    "en": "Standard Route (Measured)",
+    "zh": "标准路线（实测）"
+  },
+  "選択ルート（実測・階段は未判定）": {
+    "en": "Selected Route (Measured - Stairs Unchecked)",
+    "zh": "所选路线（实测 - 阶梯未判定）"
+  },
+  "(途中で清潔な公衆トイレ・お手洗いに寄りたい)": {
+    "en": "(Want to visit clean public restrooms along the way)",
+    "zh": "（途中想顺便去干净的公共厕所/洗手间）"
+  },
+  "目的地に設定": {
+    "en": "Set as Destination",
+    "zh": "设为目的地"
+  },
+  "地図をタップしてメニューを復帰": {
+    "en": "Tap Map to Restore Menu",
+    "zh": "轻触地图恢复菜单"
+  },
+  "道なり先": {
+    "en": "Ahead on Route",
+    "zh": "前方路线"
+  },
+  "道中記を絵巻に記す": {
+    "en": "Record Journey in Emakimono",
+    "zh": "将沿途见闻记入绘卷"
+  },
+  "散歩コースをシェア": {
+    "en": "Share Walk Course",
+    "zh": "分享散步路线"
+  },
+  "絵巻へ": {
+    "en": "To Emakimono",
+    "zh": "前往绘卷"
+  },
+  "案内を終了": {
+    "en": "End Guidance",
+    "zh": "结束导航"
+  },
+  "散歩コースをSANPOSHEREに投稿・シェア": {
+    "en": "Post & Share Walk Course to SANPOSHERE",
+    "zh": "发布并分享散步路线至SANPOSHERE"
+  },
+  "🏁 踏破！絵巻へ": {
+    "en": "🏁 Completed! To Emaki",
+    "zh": "🏁 征服！前往绘卷"
+  },
+  "前の曲がり角へ": {
+    "en": "To Previous Corner",
+    "zh": "返回上一个路口"
+  },
+  "次の曲がり角へ進める": {
+    "en": "Proceed to Next Corner",
+    "zh": "前往下一个路口"
+  },
+  "UI着せ替えテーマ": {
+    "en": "UI Theme",
+    "zh": "UI皮肤主题"
+  },
+  "⚡ ミニマル": {
+    "en": "⚡ Minimal",
+    "zh": "⚡ 极简"
+  },
+  "ナイト": {
+    "en": "Night",
+    "zh": "夜间"
+  },
+  "デイ": {
+    "en": "Day",
+    "zh": "白天"
+  },
+  "開く ➔": {
+    "en": "Open ➔",
+    "zh": "打开 ➔"
+  },
+  "地図を全画面表示（絵巻を一時収納）": {
+    "en": "Fullscreen Map (Hide Emaki Temporarily)",
+    "zh": "全屏显示地图（临时收起绘卷）"
+  },
+  "マップを全画面表示（ヘッダーとUIを隠す）": {
+    "en": "Fullscreen Map (Hide Header & UI)",
+    "zh": "全屏显示地图（隐藏页眉与UI）"
+  },
+  "AIルート": {
+    "en": "AI Route",
+    "zh": "AI路线"
+  },
+  "表示設定（テーマ切替・ライト/ダーク・言語）": {
+    "en": "Display Settings (Theme, Light/Dark, Language)",
+    "zh": "显示设置（切换主题、亮暗模式、语言）"
+  },
+  "出立地と目的地を入れ替え": {
+    "en": "Swap Start Point & Destination",
+    "zh": "互换启程地与目的地"
+  },
+  "この宿場町を削除": {
+    "en": "Delete this Post Town",
+    "zh": "删除此驿站"
+  },
+  "目的地を消去して検索を中止": {
+    "en": "Clear Destination and Stop Search",
+    "zh": "清除目的地并停止搜索"
+  },
+  "宿場町（中継地）を追加": {
+    "en": "Add Post Town (Waypoint)",
+    "zh": "添加驿站（经停点）"
+  },
+  "宿場町（中継地）をすべて解除": {
+    "en": "Clear All Post Towns (Waypoints)",
+    "zh": "清除所有驿站（经停点）"
+  },
+  "みんなの散歩絵巻": {
+    "en": "Community Walk Emaki",
+    "zh": "大家的散步绘卷"
+  },
+  "帖 · 街道スナップ巡り": {
+    "en": "Log · Street Snaps Tour",
+    "zh": "手记 · 街道快照巡礼"
+  },
+  "散歩絵巻一覧を開く": {
+    "en": "Open Walk Emaki List",
+    "zh": "打开散步绘卷列表"
+  },
+  "絵巻を記す": {
+    "en": "Write Emaki",
+    "zh": "记入绘卷"
+  },
+  "出発地と目的地を入れ替え": {
+    "en": "Swap origin and destination",
+    "zh": "互换起点和终点"
+  },
+  "スタート地点": {
+    "en": "Starting point",
+    "zh": "起点"
+  },
+  "この中継地点を削除": {
+    "en": "Remove this waypoint",
+    "zh": "删除此途经点"
+  },
+  "ゴール地点": {
+    "en": "Destination",
+    "zh": "终点"
+  },
+  "中継地点を追加": {
+    "en": "Add waypoint",
+    "zh": "添加途经点"
+  },
+  "中継地点をすべて解除": {
+    "en": "Clear all waypoints",
+    "zh": "清除所有途经点"
+  },
+  "みんなの散歩シェア": {
+    "en": "Community Walk Share",
+    "zh": "大家散步分享"
+  },
+  "コース · 写真スポットを地図で探索": {
+    "en": "Explore routes & photo spots on map",
+    "zh": "在地图上探索路线与拍照点"
+  },
+  "散歩コース一覧モーダルを開く": {
+    "en": "Open walk routes modal",
+    "zh": "打开散步路线列表"
+  },
+  "散歩を投稿": {
+    "en": "Post walk",
+    "zh": "发布散步"
+  },
+  "指南役・軍師設定（AIエージェント指示）": {
+    "en": "Advisor & Strategist Settings (AI Agent)",
+    "zh": "军师与向导设置（AI智能体）"
+  },
+  "AIエージェント設定": {
+    "en": "AI Agent Settings",
+    "zh": "AI智能体设置"
+  },
+  "AI街歩きスタイル": {
+    "en": "AI Walking Style",
+    "zh": "AI City Walk风格"
+  },
+  "カスタム指示（自由入力）": {
+    "en": "Custom Instructions",
+    "zh": "自定义指令（自由输入）"
+  },
+  "例: 関西弁の気さくなガイド風に解説して / 途中で写真映えする裏道を多く選んで": {
+    "en": "Ex: Guide in a friendly local dialect / Pick scenic backstreets",
+    "zh": "例：用亲切的方言解说 / 途中多选风景优美的背街小巷"
+  },
+  "標準にリセット": {
+    "en": "Reset to Default",
+    "zh": "恢复默认"
+  },
+  "散歩絵巻を検索（例: 寺社仏閣、甘味処、裏路地、短め）": {
+    "en": "Search walk scrolls (Ex: temples, sweets, alleys, short)",
+    "zh": "搜索散步画卷（例：寺庙神社、甜品店、小巷、较短）"
+  },
+  "散歩コースを検索（例: カフェ巡り、写真スポット、静かな路地）": {
+    "en": "Search walk routes (Ex: cafes, photo spots, quiet alleys)",
+    "zh": "搜索散步路线（例：咖啡巡游、拍照点、安静小巷）"
+  },
+  "この道を調整（例: もっと海沿い、坂を避ける）": {
+    "en": "Adjust this route (Ex: closer to sea, avoid hills)",
+    "zh": "调整此路线（例：更靠近海边、避开斜坡）"
+  },
+  "この案を調整（例: もっと海沿い、寄り道を減らす）": {
+    "en": "Adjust this plan (Ex: closer to sea, fewer detours)",
+    "zh": "调整此方案（例：更靠近海边、减少绕路）"
+  },
+  "検索絞り込みを解除": {
+    "en": "Clear filters",
+    "zh": "清除筛选条件"
+  },
+  "探索の条件設定": {
+    "en": "Search Conditions",
+    "zh": "探索条件设置"
+  },
+  "プロンプトオプション": {
+    "en": "Prompt Options",
+    "zh": "提示词选项"
+  },
+  "周回散歩（発着同じコース）": {
+    "en": "Loop Walk (Same start & end)",
+    "zh": "环形散步（起点终点相同）"
+  },
+  "おまかせ周回散歩コース": {
+    "en": "Auto-generated Loop Route",
+    "zh": "随心环形散步路线"
+  },
+  "🚻 公衆トイレ寄り道": {
+    "en": "🚻 Public Restroom Detour",
+    "zh": "🚻 顺路公厕"
+  },
+  "ルート途中の清潔なお手洗いを経由": {
+    "en": "Include clean restrooms along the route",
+    "zh": "途经路线上的干净洗手间"
+  },
+  "回避したい条件": {
+    "en": "Avoid Conditions",
+    "zh": "避开的条件"
+  },
+  "場所や条件を追加 (例: 歌舞伎町、急坂)": {
+    "en": "Add places or conditions (Ex: Kabukicho, steep hills)",
+    "zh": "添加地点或条件（例：歌舞伎町、陡坡）"
+  },
+  "AIペルソナ・案内スタイル設定": {
+    "en": "AI Persona & Guide Style",
+    "zh": "AI人设与引导风格设置"
+  },
+  "ルート検索を中止してエージェントを停止": {
+    "en": "Cancel search and stop agent",
+    "zh": "取消路线搜索并停止智能体"
+  },
+  "プロンプトオプション（トイレ優先、NG回避、AI設定）": {
+    "en": "Prompt Options (Restroom, Avoid NG, AI settings)",
+    "zh": "提示词选项（公厕优先、规避禁忌、AI设置）"
+  },
+  "ルート検索を中止して待機状態に戻る": {
+    "en": "Cancel route search and return to standby",
+    "zh": "取消路线搜索并返回待机状态"
+  },
+  "出発地に戻ってくるおまかせ周回・ループ散歩コースを作成": {
+    "en": "Create a loop walk route returning to origin",
+    "zh": "创建返回出发地的随心环形路线"
+  },
+  "おまかせ周回": {
+    "en": "Auto Loop",
+    "zh": "随心环路"
+  },
+  "何刻の道中（周回）？": {
+    "en": "How long is the journey (Loop)?",
+    "zh": "游历多长时间（环形）？"
+  },
+  "周回散歩の時間（4コース生成）": {
+    "en": "Loop Walk Duration (Generates 4 routes)",
+    "zh": "环形散步时间（生成4条路线）"
+  },
+  "歩行速度: Googleマップ基準 分速80m（時速4.8km）": {
+    "en": "Walking Speed: Google Maps standard 80m/min (4.8km/h)",
+    "zh": "步行速度：谷歌地图标准 每分钟80米（时速4.8公里）"
+  },
+  "分コース": {
+    "en": "min course",
+    "zh": "分钟路线"
+  },
+  "ルート途中の公衆トイレ・お手洗いを検索して経由地に設定（ON/OFF）": {
+    "en": "Search public restrooms along route (ON/OFF)",
+    "zh": "搜索并设置沿途公厕（开启/关闭）"
+  },
+  "回避したい場所や条件（坂、夜道、繁華街など）を設定": {
+    "en": "Set places/conditions to avoid (hills, dark streets, nightlife)",
+    "zh": "设置要避开的地点或条件（斜坡、夜路、闹市等）"
+  },
+  "AIの街歩き人格やシステムプロンプトをカスタマイズ": {
+    "en": "Customize AI walking persona and system prompt",
+    "zh": "自定义AI的散步人格与系统提示词"
+  },
+  "街道探索を終了して通常地図に戻る": {
+    "en": "End exploration and return to normal map",
+    "zh": "结束街道探索并返回普通地图"
+  },
+  "ルート探索を終了して通常の地図に戻る": {
+    "en": "End route search and return to normal map",
+    "zh": "结束路线搜索并返回普通地图"
+  },
+  "探索を終了": {
+    "en": "End Exploration",
+    "zh": "结束探索"
+  },
+  "上へスワイプまたはタップでルートカードを展開": {
+    "en": "Swipe up or tap to expand route card",
+    "zh": "向上滑动或点击以展开路线卡片"
+  },
+  "下へスワイプまたはタップでルートカードを格納": {
+    "en": "Swipe down or tap to collapse route card",
+    "zh": "向下滑动或点击以折叠路线卡片"
+  },
+  "街道絵巻を展開": {
+    "en": "Expand route scroll",
+    "zh": "展开街道画卷"
+  },
+  "ルートを展開": {
+    "en": "Expand route",
+    "zh": "展开路线"
+  },
+  "地図を広く見る": {
+    "en": "View wider map",
+    "zh": "全景查看地图"
+  },
+  "マップを広く見る": {
+    "en": "View wider map",
+    "zh": "扩大地图视野"
+  },
+  "歩行優先の推奨街道": {
+    "en": "Pedestrian-priority recommended street",
+    "zh": "步行优先推荐街道"
+  },
+  "歩道優先の推奨ルート": {
+    "en": "Sidewalk-priority recommended route",
+    "zh": "人行道优先推荐路线"
+  },
+  "この検索内の候補を並べる参考値": {
+    "en": "Reference value for ranking candidates in this search",
+    "zh": "此搜索中排列候选路线的参考值"
+  },
+  "タップで選択": {
+    "en": "Tap to select",
+    "zh": "点击选择"
+  },
+  "標準ルート比": {
+    "en": "vs standard route",
+    "zh": "相比标准路线"
+  },
+  "通る場所": {
+    "en": "Places along route",
+    "zh": "途经地点"
+  },
+  "📜 軍師の指南": {
+    "en": "📜 Strategist's Guide",
+    "zh": "📜 军师指引"
+  },
+  "軍師推奨街道と官道（Google標準）の比較詳細を開く": {
+    "en": "Open detailed comparison of strategist recommended street vs Google standard",
+    "zh": "打开军师推荐街道与官方路线（谷歌标准）的详细对比"
+  },
+  "AI提案ルートとGoogle標準ルートの比較詳細を開く": {
+    "en": "Open detailed comparison of AI proposal vs Google standard",
+    "zh": "打开AI建议路线与谷歌标准路线的详细对比"
+  },
+  "このルートを歩く": {
+    "en": "Walk this route",
+    "zh": "走这条路线"
+  },
+  "📷 スポット": {
+    "en": "📷 Spot",
+    "zh": "📷 景点"
+  },
+  "いいねを取り消す": {
+    "en": "Unlike",
+    "zh": "取消点赞"
+  },
+  "いいねする": {
+    "en": "Like",
+    "zh": "点赞"
+  },
+  "シンプルミニマルテーマに切り替え": {
+    "en": "Switch to Simple Minimal theme",
+    "zh": "切换至简约风格"
+  },
+  "江戸・和風絵巻テーマに切り替え": {
+    "en": "Switch to Edo Japanese Scroll theme",
+    "zh": "切换至江户和风画卷风格"
+  },
+  "写真散歩絵巻を開く": {
+    "en": "Open photo walk scroll",
+    "zh": "打开摄影散步画卷"
+  },
+  "写真散歩コース共有 (SANPOSHERE) を開く": {
+    "en": "Open photo walk share (SANPOSHERE)",
+    "zh": "打开摄影散步分享 (SANPOSHERE)"
+  },
+  "分短縮": {
+    "en": "min saved",
+    "zh": "缩短分"
+  },
+  "分": {
+    "en": " min",
+    "zh": "分钟"
+  },
+  "分短縮 (-20%)": {
+    "en": "min saved (-20%)",
+    "zh": "缩短分 (-20%)"
+  },
+  "分 (3.1km)": {
+    "en": "min (3.1km)",
+    "zh": "分 (3.1km)"
+  },
+  "分 (": {
+    "en": "min (",
+    "zh": "分 ("
+  },
+  "m短縮)": {
+    "en": "m saved)",
+    "zh": "m缩短)"
+  },
+  "坂道回避": {
+    "en": "Avoid hills",
+    "zh": "避开坡道"
+  },
+  "· Elevation API実測": {
+    "en": "· Elevation API measured",
+    "zh": "· Elevation API实测"
+  },
+  "● 出発": {
+    "en": "● Start",
+    "zh": "● 出发"
+  },
+  "到着 ●": {
+    "en": "Arrival ●",
+    "zh": "到达 ●"
+  },
+  "(途中规划清洁公共洗手间)": {
+    "en": "(Plan clean public restrooms along the way)",
+    "zh": "(途中规划清洁公共洗手间)"
+  },
+  "直進": {
+    "en": "Go straight",
+    "zh": "直行"
+  },
+  "先、": {
+    "en": "ahead,",
+    "zh": "前方、"
+  },
+  "目的地": {
+    "en": "Destination",
+    "zh": "目的地"
+  },
+  "＋経由地": {
+    "en": "＋Waypoint",
+    "zh": "＋途径地"
+  },
+  "同等": {
+    "en": "Equal",
+    "zh": "相当"
+  },
+  "🛡️ 治安・安心感": {
+    "en": "🛡️ Safety & Security",
+    "zh": "🛡️ 治安与安心感"
+  },
+  "所要時間": {
+    "en": "Duration",
+    "zh": "所需时间"
+  },
+  "距離": {
+    "en": "Distance",
+    "zh": "距离"
+  },
+  "時間同等": {
+    "en": "Time equivalent",
+    "zh": "时间相当"
+  },
+  "m軽減": {
+    "en": "m reduced",
+    "zh": "m减少"
+  },
+  "破線: 標準 / 実線: AI提案": {
+    "en": "Dashed: Standard / Solid: AI Proposal",
+    "zh": "虚线: 标准 / 实线: AI提案"
+  },
+  "指標": {
+    "en": "Metric",
+    "zh": "指标"
+  },
+  "Google標準": {
+    "en": "Google Standard",
+    "zh": "Google标准"
+  },
+  "AI提案": {
+    "en": "AI Proposal",
+    "zh": "AI提案"
+  },
+  "差分": {
+    "en": "Difference",
+    "zh": "差分"
+  },
+  "現地 Street View 確認（代表": {
+    "en": "Check Street View on-site (Representative",
+    "zh": "实地查看 Street View（代表"
+  },
+  "地点）": {
+    "en": "point)",
+    "zh": "地点）"
+  },
+  "道幅普通": {
+    "en": "Average width",
+    "zh": "路幅普通"
+  },
+  "地点": {
+    "en": "Point",
+    "zh": "地点"
+  },
+  "Street View 拡大表示": {
+    "en": "Zoom Street View",
+    "zh": "Street View 放大显示"
+  },
+  "編集": {
+    "en": "Edit",
+    "zh": "编辑"
+  },
+  "削除": {
+    "en": "Delete",
+    "zh": "删除"
+  },
+  "説明": {
+    "en": "Description",
+    "zh": "说明"
+  },
+  "保存中…": {
+    "en": "Saving...",
+    "zh": "保存中…"
+  },
+  "保存": {
+    "en": "Save",
+    "zh": "保存"
+  },
+  "削除中…": {
+    "en": "Deleting...",
+    "zh": "删除中…"
+  },
+  "地図表示用のAPIキーが設定されていません。": {
+    "en": "Map API key is not configured.",
+    "zh": "未配置地图显示的API密钥。"
+  },
+  "道中記記録士": {
+    "en": "Journey Chronicler",
+    "zh": "道中记记录士"
+  },
+  "新参旅人": {
+    "en": "New Traveler",
+    "zh": "新参旅人"
+  },
+  "散歩絵巻": {
+    "en": "Stroll Scroll",
+    "zh": "散步绘卷"
+  },
+  "道中記": {
+    "en": "Journey Log",
+    "zh": "道中记"
+  },
+  "散歩": {
+    "en": "Stroll",
+    "zh": "散步"
+  },
+  "無加工写真": {
+    "en": "Raw Photo",
+    "zh": "无加工照片"
+  },
+  "路地裏": {
+    "en": "Back Alley",
+    "zh": "小巷"
+  },
+  "AI探索": {
+    "en": "AI Explore",
+    "zh": "AI探索"
+  },
+  "表示順:": {
+    "en": "Sort order:",
+    "zh": "显示顺序:"
+  },
+  "日": {
+    "en": " days",
+    "zh": "日"
+  },
+  "約": {
+    "en": "Approx.",
+    "zh": "约"
+  },
+  "km · 約": {
+    "en": "km · Approx.",
+    "zh": "km · 约"
+  },
+  "再試行": {
+    "en": "Retry",
+    "zh": "重试"
+  },
+  "推定用": {
+    "en": "For estimation",
+    "zh": "估算用"
+  },
+  "地点 · 掲載": {
+    "en": "Point · Published",
+    "zh": "地点 · 刊登"
+  },
+  "/5枚:": {
+    "en": "/5 photos:",
+    "zh": "/5张:"
+  },
+  "例: Haruka": {
+    "en": "Ex: Haruka",
+    "zh": "例: Haruka"
+  },
+  "例: 渋谷〜表参道": {
+    "en": "Ex: Shibuya-Omotesando",
+    "zh": "例: 涩谷～表参道"
+  },
+  "先": {
+    "en": "ahead",
+    "zh": "前方"
+  },
+  "🏁 踏破！絵巻へ記録": {
+    "en": "🏁 Completed! Record to Scroll",
+    "zh": "🏁 踏破！记录至绘卷"
+  },
+  "🏁 完歩！散歩記録を投稿": {
+    "en": "🏁 Walk finished! Post stroll log",
+    "zh": "🏁 完步！发布散步记录"
+  },
+  "自動進行 ON/OFF": {
+    "en": "Auto Advance ON/OFF",
+    "zh": "自动进行 ON/OFF"
+  },
+  "道中自動": {
+    "en": "Auto Journey",
+    "zh": "道中自动"
+  },
+  "自動": {
+    "en": "Auto",
+    "zh": "自动"
+  },
+  "手動": {
+    "en": "Manual",
+    "zh": "手动"
+  },
+  "👘 和風絵巻": {
+    "en": "👘 Japanese Scroll",
+    "zh": "👘 和风绘卷"
+  },
+  "街道探索": {
+    "en": "Route Explore",
+    "zh": "街道探索"
+  },
+  "出立": {
+    "en": "Depart",
+    "zh": "出发"
+  },
+  "出立地点": {
+    "en": "Departure Point",
+    "zh": "出发地点"
+  },
+  "宿場": {
+    "en": "Post Station",
+    "zh": "宿场"
+  },
+  "全解除": {
+    "en": "Clear All",
+    "zh": "全解除"
+  },
+  "全": {
+    "en": "All",
+    "zh": "全"
+  },
+  "一覧": {
+    "en": "List",
+    "zh": "一览"
+  },
+  "出力言語（Language）": {
+    "en": "Output Language",
+    "zh": "输出语言（Language）"
+  },
+  "🇯🇵 日本語": {
+    "en": "🇯🇵 Japanese",
+    "zh": "🇯🇵 日本语"
+  },
+  "🇨🇳 中文": {
+    "en": "🇨🇳 Chinese",
+    "zh": "🇨🇳 中文"
+  },
+  "调整这条路线（例如：多走海边、减少绕路）...": {
+    "en": "Adjust this route (e.g., walk by the coast, reduce detours)...",
+    "zh": "调整这条路线（例如：多走海边、减少绕路）..."
+  },
+  "」一致度": {
+    "en": "\" match",
+    "zh": "」一致度"
+  },
+  "分速80m基準": {
+    "en": "Based on 80m/min",
+    "zh": "分速80m基准"
+  },
+  "✓ 有効": {
+    "en": "✓ Enabled",
+    "zh": "✓ 有效"
+  },
+  "無効": {
+    "en": "Disabled",
+    "zh": "无效"
+  },
+  "件設定中": {
+    "en": "items configured",
+    "zh": "件设定中"
+  },
+  "追加": {
+    "en": "Add",
+    "zh": "追加"
+  },
+  "変更 →": {
+    "en": "Change →",
+    "zh": "变更 →"
+  },
+  "検索中止": {
+    "en": "Cancel Search",
+    "zh": "取消搜索"
+  },
+  "中止": {
+    "en": "Cancel",
+    "zh": "中止"
+  },
+  "検索": {
+    "en": "Search",
+    "zh": "搜索"
+  },
+  "周回散歩": {
+    "en": "Loop Walk",
+    "zh": "环形散步"
+  },
+  "一": {
+    "en": "1",
+    "zh": "一"
+  },
+  "二": {
+    "en": "2",
+    "zh": "二"
+  },
+  "三": {
+    "en": "3",
+    "zh": "三"
+  },
+  "極": {
+    "en": "Pro",
+    "zh": "极"
+  },
+  "道": {
+    "en": "Way",
+    "zh": "道"
+  },
+  "比較": {
+    "en": "Compare",
+    "zh": "比较"
+  },
+  "点": {
+    "en": "Point",
+    "zh": "点"
+  },
+  "選択": {
+    "en": "Select",
+    "zh": "选择"
+  },
+  "较标准路线": {
+    "en": "vs Standard Route",
+    "zh": "较标准路线"
+  },
+  "途经": {
+    "en": "Via",
+    "zh": "途经"
+  },
+  "AI解説 & 比較": {
+    "en": "AI Commentary & Compare",
+    "zh": "AI解说 & 比较"
+  },
+  "軍師推奨": {
+    "en": "Strategist's Choice",
+    "zh": "军师推荐"
+  },
+  "ヶ所": {
+    "en": "locations",
+    "zh": "处"
+  },
+  "現在地": {
+    "en": "Current Location",
+    "zh": "当前位置"
+  },
+  "出立地（現在地）": {
+    "en": "Departure (Current Location)",
+    "zh": "启程地（当前位置）"
+  },
+  "目的地 / 行き先": {
+    "en": "Destination",
+    "zh": "目的地"
+  },
+  "いざ何処へ（目的地）": {
+    "en": "Where to? (Destination)",
+    "zh": "意欲何往（目的地）"
+  },
+  "どこへ行きますか？（例: 坂を避けてカフェ寄り道）": {
+    "en": "Where to? (e.g., Avoid hills, stop by a cafe)",
+    "zh": "你想去哪里？（例：避开坡道去咖啡馆）"
+  },
+  "目安箱: 坂を避けて茶屋寄り道、など": {
+    "en": "Suggestion Box: e.g., avoid slopes, visit teahouse",
+    "zh": "御愿箱：避开陡坡前往茶室休憩等"
+  },
+  "AIエージェントがルートを探索中...": {
+    "en": "AI agent searching route...",
+    "zh": "AI智能体正在规划路线..."
+  },
+  "軍師が街道の道筋を推考中...": {
+    "en": "Strategist mapping the path...",
+    "zh": "向导谋士正在绘测江户古道..."
+  },
+  "ルート解除": {
+    "en": "Clear Route",
+    "zh": "取消路线"
+  },
+  "出立中止": {
+    "en": "Cancel Departure",
+    "zh": "取消启程"
+  },
+  "条件を変更 💬": {
+    "en": "Change Conditions 💬",
+    "zh": "修改条件 💬"
+  },
+  "閉じる ✕": {
+    "en": "Close ✕",
+    "zh": "关闭 ✕"
+  },
+  "トイレ寄り道": {
+    "en": "Restroom Detour",
+    "zh": "途径洗手间"
+  },
+  "茶屋・雪隠寄り道": {
+    "en": "Teahouse & Restroom Detour",
+    "zh": "途经茶室洗手间"
+  },
+  "回避条件(NG)": {
+    "en": "Avoid (NG)",
+    "zh": "避开区域 (NG)"
+  },
+  "難所・峠回避": {
+    "en": "Avoid Steep Passes",
+    "zh": "避开险隘关卡"
+  },
+  "AI設定": {
+    "en": "AI Settings",
+    "zh": "AI设置"
+  },
+  "軍師・指南役設定": {
+    "en": "Strategist Settings",
+    "zh": "军师设定"
+  },
+  "開始 ▶": {
+    "en": "Start ▶",
+    "zh": "开始 ▶"
+  },
+  "いざ出立 ▶": {
+    "en": "Depart ▶",
+    "zh": "启程 ▶"
+  },
+  "終了 ✕": {
+    "en": "End ✕",
+    "zh": "结束 ✕"
+  },
+  "案内終了 ✕": {
+    "en": "End Guidance ✕",
+    "zh": "结束引导 ✕"
+  },
+  "詳細": {
+    "en": "Details",
+    "zh": "详情"
+  },
+  "北を上にリセット": {
+    "en": "Reset North Up",
+    "zh": "指北重置"
+  },
+  "子（北）へ戻す": {
+    "en": "Reset to North",
+    "zh": "子（北）重置"
+  },
+  "スタート地点へ移動": {
+    "en": "Go to Start Point",
+    "zh": "移动至起点"
+  },
+  "出立の地へ戻る": {
+    "en": "Return to Departure",
+    "zh": "返回启程地"
+  },
+  "表示設定": {
+    "en": "Display Settings",
+    "zh": "显示设定"
+  },
+  "テーマ": {
+    "en": "Theme",
+    "zh": "主题"
+  },
+  "ミニマル": {
+    "en": "Minimal",
+    "zh": "极简"
+  },
+  "和風": {
+    "en": "Japanese Style",
+    "zh": "和风"
+  },
+  "画面レイアウト": {
+    "en": "Layout",
+    "zh": "界面布局"
+  },
+  "言語": {
+    "en": "Language",
+    "zh": "语言"
+  },
+  "AI推論中...": {
+    "en": "AI Reasoning...",
+    "zh": "AI推论中..."
+  },
+  "軍師推論中...": {
+    "en": "Strategist Reasoning...",
+    "zh": "军师推论中..."
+  },
+  "＋経由": {
+    "en": "+ Via",
+    "zh": "+途径"
+  },
+  "＋宿場": {
+    "en": "+ Post Town",
+    "zh": "+宿场"
+  },
+  "その先": {
+    "en": "Ahead",
+    "zh": "前方"
+  },
+  "道中その先": {
+    "en": "Further Ahead",
+    "zh": "道中前方"
+  },
+  "進行方向固定": {
+    "en": "Lock Heading",
+    "zh": "进行方向固定"
+  },
+  "Start Point (出立地)": {
+    "en": "Start Point",
+    "zh": "起点 (出立地)"
+  },
+  "Where to? (いざ何処へ)": {
+    "en": "Where to?",
+    "zh": "去哪里？ (いざ何処へ)"
+  },
+  "Depart ▶ (出立)": {
+    "en": "Depart",
+    "zh": "启程 (出立)"
+  },
+  "Reset North (子)": {
+    "en": "Reset North",
+    "zh": "重置正北 (子)"
+  },
+  "当前位置": {
+    "en": "Current Location",
+    "zh": "当前位置"
+  },
+  "启程之地（当前位置）": {
+    "en": "Departure (Current Location)",
+    "zh": "启程之地（当前位置）"
+  },
+  "目的地 / 前往何处": {
+    "en": "Destination",
+    "zh": "目的地 / 前往何处"
+  },
+  "意欲何往（目的地）": {
+    "en": "Destination",
+    "zh": "意欲何往（目的地）"
+  },
+  "你想去哪里？（例：避开坡道去咖啡馆）": {
+    "en": "Where to? (e.g., avoid slopes, visit cafe)",
+    "zh": "你想去哪里？（例：避开坡道去咖啡馆）"
+  },
+  "御愿箱：避开陡坡前往茶室休憩等": {
+    "en": "Suggestion: Avoid slopes, visit teahouse",
+    "zh": "御愿箱：避开陡坡前往茶室休憩等"
+  },
+  "AI智能体正在规划最佳路线...": {
+    "en": "AI agent planning route...",
+    "zh": "AI智能体正在规划最佳路线..."
+  },
+  "向导谋士正在绘测江户古道...": {
+    "en": "Strategist mapping the ancient road...",
+    "zh": "向导谋士正在绘测江户古道..."
+  },
+  "取消路线": {
+    "en": "Cancel Route",
+    "zh": "取消路线"
+  },
+  "取消启程": {
+    "en": "Cancel Departure",
+    "zh": "取消启程"
+  },
+  "修改条件 💬": {
+    "en": "Change Conditions 💬",
+    "zh": "修改条件 💬"
+  },
+  "关闭 ✕": {
+    "en": "Close ✕",
+    "zh": "关闭 ✕"
+  },
+  "🚻 途径洗手间": {
+    "en": "🚻 Restroom Via",
+    "zh": "🚻 途径洗手间"
+  },
+  "🍵 途经茶室洗手间": {
+    "en": "🍵 Teahouse & Restroom Via",
+    "zh": "🍵 途经茶室洗手间"
+  },
+  "🚫 避开区域 (NG)": {
+    "en": "🚫 Avoid Area (NG)",
+    "zh": "🚫 避开区域 (NG)"
+  },
+  "🚫 避开险隘关卡": {
+    "en": "🚫 Avoid Steep Passes",
+    "zh": "🚫 避开险隘关卡"
+  },
+  "⚙️ AI设置": {
+    "en": "⚙️ AI Settings",
+    "zh": "⚙️ AI设置"
+  },
+  "📜 谋士军师设置": {
+    "en": "📜 Advisor Settings",
+    "zh": "📜 谋士军师设置"
+  },
+  "开始导航 ▶": {
+    "en": "Start Navigation ▶",
+    "zh": "开始导航 ▶"
+  },
+  "即刻启程 ▶": {
+    "en": "Start Journey ▶",
+    "zh": "即刻启程 ▶"
+  },
+  "退出 ✕": {
+    "en": "Exit ✕",
+    "zh": "退出 ✕"
+  },
+  "结束向导 ✕": {
+    "en": "End Guide ✕",
+    "zh": "结束向导 ✕"
+  },
+  "详细": {
+    "en": "Details",
+    "zh": "详细"
+  },
+  "指北复位": {
+    "en": "Reset North",
+    "zh": "指北复位"
+  },
+  "指南定北": {
+    "en": "Lock North",
+    "zh": "指南定北"
+  },
+  "回到起点": {
+    "en": "Back to Start",
+    "zh": "回到起点"
+  },
+  "返程至起点": {
+    "en": "Return to Start",
+    "zh": "返程至起点"
+  },
+  "显示设置": {
+    "en": "Display Settings",
+    "zh": "显示设置"
+  },
+  "主题": {
+    "en": "Theme",
+    "zh": "主题"
+  },
+  "⚡ 极简": {
+    "en": "⚡ Minimal",
+    "zh": "⚡ 极简"
+  },
+  "👘 江户绘卷": {
+    "en": "👘 Edo Scroll",
+    "zh": "👘 江户绘卷"
+  },
+  "画面布局": {
+    "en": "Layout",
+    "zh": "画面布局"
+  },
+  "语言": {
+    "en": "Language",
+    "zh": "语言"
+  },
+  "AI规划中...": {
+    "en": "AI Planning...",
+    "zh": "AI规划中..."
+  },
+  "谋士推演中...": {
+    "en": "Advisor Simulating...",
+    "zh": "谋士推演中..."
+  },
+  "+途经": {
+    "en": "+Waypoint",
+    "zh": "+途经"
+  },
+  "+驿站": {
+    "en": "+Station",
+    "zh": "+驿站"
+  },
+  "之后": {
+    "en": "After",
+    "zh": "之后"
+  },
+  "沿途前瞻": {
+    "en": "Route Preview",
+    "zh": "沿途前瞻"
+  },
+  "车头朝上": {
+    "en": "Heading Up",
+    "zh": "车头朝上"
+  },
+  "散步分享": {
+    "en": "Share Walk",
+    "zh": "散步分享"
+  },
+  "散步图卷": {
+    "en": "Walk Scroll",
+    "zh": "散步图卷"
+  },
+  "Google Routes API: 実道路網で複数ルート候補の探索": {
+    "en": "Google Routes API: Search multiple routes on real roads",
+    "zh": "Google Routes API：实道路网多路线探索"
+  },
+  "Elevation / 道路環境: 標高プロファイル・安全性の計測": {
+    "en": "Elevation / Environment: Profile & safety metrics",
+    "zh": "Elevation / 道路环境：标高与安全性测量"
+  },
+  "EmbeddingGemma 2 270M: 希望とルートの意味類似度を比較": {
+    "en": "EmbeddingGemma 2 270M: Compare goals with route similarity",
+    "zh": "EmbeddingGemma 2 270M：比较愿望与路线相似度"
+  },
+  "最適ルート案を統合・合成中...": {
+    "en": "Synthesizing optimal routes...",
+    "zh": "优化路线方案合并合成中..."
+  },
+  "急坂・階段": {
+    "en": "Steep slopes / Stairs",
+    "zh": "急坂・阶梯"
+  },
+  "陡坡/台阶": {
+    "en": "Steep slopes / Stairs",
+    "zh": "陡坡/台阶"
+  },
+  "暗い夜道": {
+    "en": "Dark alleys",
+    "zh": "昏暗夜路"
+  },
+  "昏暗小路": {
+    "en": "Dark alleys",
+    "zh": "昏暗小路"
+  },
+  "繁華街の混雑": {
+    "en": "Crowded downtown",
+    "zh": "繁华街区拥挤"
+  },
+  "闹市拥挤": {
+    "en": "Crowded downtown",
+    "zh": "闹市拥挤"
+  },
+  "工事区間": {
+    "en": "Construction zone",
+    "zh": "施工区间"
+  },
+  "施工路段": {
+    "en": "Construction zone",
+    "zh": "施工路段"
+  },
+  "🚶‍♂️ 標準（快適・歩行者優先・安全）": {
+    "en": "🚶‍♂️ Standard (Comfort & Safety)",
+    "zh": "🚶‍♂️ 标准（舒适・行人优先・安全）"
+  },
+  "🚶‍♂️ 标准（舒适安全）": {
+    "en": "🚶‍♂️ Standard (Comfort & Safety)",
+    "zh": "🚶‍♂️ 标准（舒适安全）"
+  },
+  "歩道優先、高低差・夜道の治安・天候にバランス良く配慮します": {
+    "en": "Prioritizes sidewalks and balanced consideration of elevation, night safety, and weather",
+    "zh": "优先步行道，平衡考虑坡度、夜间安全和天气"
+  },
+  "优先步行道，平衡考虑坡度、夜间安全和天气": {
+    "en": "Prioritizes sidewalks and balanced consideration of elevation, night safety, and weather",
+    "zh": "优先步行道，平衡考虑坡度、夜间安全和天气"
+  },
+  "🏯 歴史・観光ガイド風（見どころ・豆知識解説）": {
+    "en": "🏯 Historical & Sightseeing Guide (Highlights & trivia)",
+    "zh": "🏯 历史・观光向导风（看点・趣闻解说）"
+  },
+  "🏯 观光向导（详解沿途历史名胜）": {
+    "en": "🏯 Sightseeing Guide (Detailed history)",
+    "zh": "🏯 观光向导（详解沿途历史名胜）"
+  },
+  "街歩きガイドとして、各ルートの歴史や撮影スポットを魅力的に解説します": {
+    "en": "Engagingly explains route history and photo spots as a walk guide",
+    "zh": "作为街头漫步向导，生动讲解各路线历史与摄影胜地"
+  },
+  "以向导口吻生动讲解沿途历史和绝佳拍照点": {
+    "en": "Vividly explain history and photo spots in a guide tone",
+    "zh": "以向导口吻生动讲解沿途历史和绝佳拍照点"
+  },
+  "歴史や観光名所にとても詳しいプロの街歩きガイドとして、各ルートの見どころや豆知識、おすすめの撮影スポットを魅力的に解説してください。": {
+    "en": "As a professional tour guide, vividly explain route highlights, trivia, and photo spots.",
+    "zh": "作为精通历史与景点的专业导游，请生动讲解各路线看点、冷知识及推荐拍照打卡点。"
+  },
+  "🏃‍♂️ フィットネス早歩き（運動・カロリー消費重視）": {
+    "en": "🏃‍♂️ Fitness Brisk Walk (Calorie & exercise focus)",
+    "zh": "🏃‍♂️ 健身快走（运动・热量消耗重视）"
+  },
+  "🏃‍♂️ 健身快走（促进热量消耗）": {
+    "en": "🏃‍♂️ Fitness Brisk Walk (Boost calorie burn)",
+    "zh": "🏃‍♂️ 健身快走（促进热量消耗）"
+  },
+  "適度なアップダウンや広い舗装路を選び、健康促進目線で提案します": {
+    "en": "Selects moderate elevations and wide paved roads for health promotion",
+    "zh": "精选适度起伏和平坦宽敞的大路，从健康促进角度推荐"
+  },
+  "精选适度起伏和平坦宽敞的大路，提升健身效果": {
+    "en": "Selects moderate elevations and wide paved roads to enhance fitness",
+    "zh": "精选适度起伏和平坦宽敞的大路，提升健身效果"
+  },
+  "ウォーキングインストラクターとして、歩きごたえのある適度なアップダウンや広い舗装路を選び、健康促進やカロリー消費の観点からアドバイスしてください。": {
+    "en": "As a walking instructor, advise on moderate elevations and paved roads for fitness and calorie burning.",
+    "zh": "作为步行教练，请从健康和卡路里消耗角度，推荐有强身效果的适度起伏路线或宽敞铺装路。"
+  },
+  "👶 子連れ・バリアフリー（段差ゼロ・EV優先）": {
+    "en": "👶 Barrier-Free / Family (Step-free, EV priority)",
+    "zh": "👶 亲子・无障碍（零台阶・电梯优先）"
+  },
+  "👶 无障碍/亲子（零台阶、婴儿车友好）": {
+    "en": "👶 Barrier-Free / Family (Step-free, stroller friendly)",
+    "zh": "👶 无障碍/亲子（零台阶、婴儿车友好）"
+  },
+  "ベビーカーや車椅子でも安全な階段ゼロ・フラットルートを最優先します": {
+    "en": "Prioritizes step-free, flat routes safe for strollers and wheelchairs",
+    "zh": "优先无台阶平坦路线，保障婴儿车与轮椅通行安全"
+  },
+  "100%避开阶梯陡坡，优先电梯齐全设施，婴儿车无忧": {
+    "en": "Avoids stairs and slopes 100%, prioritizes elevators and wide paths for strollers",
+    "zh": "100%避开阶梯陡坡，优先电梯齐全设施，婴儿车无忧"
+  },
+  "ベビーカーや車椅子でも安心な完全バリアフリールートを最優先してください。階段や急勾配を100%回避し、エレベーター完備の施設や広い歩道のみを繋いでください。": {
+    "en": "Prioritize fully barrier-free routes safe for strollers and wheelchairs. Avoid stairs and steep slopes 100%, connecting only elevator-equipped facilities and wide sidewalks.",
+    "zh": "请优先提供对婴儿车和轮椅都安心的无障碍路线。100%避开台阶与陡坡，仅连接电梯完备的设施与宽阔人行道。"
+  },
+  "快晴": {
+    "en": "Clear",
+    "zh": "晴朗"
+  },
+  "晴れ": {
+    "en": "Sunny",
+    "zh": "晴"
+  },
+  "一部曇り": {
+    "en": "Partly cloudy",
+    "zh": "局部多云"
+  },
+  "曇り": {
+    "en": "Cloudy",
+    "zh": "阴"
+  },
+  "霧": {
+    "en": "Fog",
+    "zh": "雾"
+  },
+  "霧氷": {
+    "en": "Freezing fog",
+    "zh": "冻雾"
+  },
+  "小雨": {
+    "en": "Light rain",
+    "zh": "小雨"
+  },
+  "雨": {
+    "en": "Rain",
+    "zh": "雨"
+  },
+  "強い霧雨": {
+    "en": "Heavy drizzle",
+    "zh": "强毛毛雨"
+  },
+  "大雨": {
+    "en": "Heavy rain",
+    "zh": "大雨"
+  },
+  "小雪": {
+    "en": "Light snow",
+    "zh": "小雪"
+  },
+  "雪": {
+    "en": "Snow",
+    "zh": "雪"
+  },
+  "大雪": {
+    "en": "Heavy snow",
+    "zh": "大雪"
+  },
+  "にわか雨": {
+    "en": "Rain showers",
+    "zh": "阵雨"
+  },
+  "強いにわか雨": {
+    "en": "Heavy showers",
+    "zh": "强阵雨"
+  },
+  "激しいにわか雨": {
+    "en": "Violent showers",
+    "zh": "猛烈阵雨"
+  },
+  "雷雨": {
+    "en": "Thunderstorms",
+    "zh": "雷雨"
+  },
+  "花粉": {
+    "en": "Pollen",
+    "zh": "花粉"
+  },
+  "実測距離": {
+    "en": "Measured distance",
+    "zh": "实测距离"
+  },
+  "日陰": {
+    "en": "Shade",
+    "zh": "阴影"
+  },
+  "選択画面では「ファイル」「ブラウズ」から、DCIM／Cameraなどの原本を選んでください。写真ライブラリ経由ではGPSが削除される場合があります。GPS抽出後に掲載用画像を圧縮します。": {
+    "en": "Choose Files or Browse, then select originals from DCIM/Camera or their saved folder. Photo-library copies may lose GPS. Images are compressed only after GPS extraction.",
+    "zh": "请通过“文件”或“浏览”，从DCIM／Camera等文件夹选择原始照片。相册提供的副本可能丢失GPS。仅在提取GPS后压缩展示图片。"
+  },
+  "トイレ設備を確認できる施設を優先": {
+    "en": "Prefer stops with verified restrooms",
+    "zh": "优先途经已确认有洗手间的设施"
+  },
+  "富山駅": {
+    "en": "Toyama Station",
+    "zh": "富山站"
+  },
+  "駅・ターミナル": {
+    "en": "Station & Terminal",
+    "zh": "车站 / 交通枢纽"
+  },
+  "北陸新幹線・あいの風とやま鉄道・路面電車が集まる富山の玄関口": {
+    "en": "The gateway to Toyama connecting Shinkansen, local trains, and city trams",
+    "zh": "连接北陆新干线、爱之风富山铁道与市内电车的富山门户"
+  },
+  "富岩運河環水公園": {
+    "en": "Fugan Canal Kansui Park",
+    "zh": "富岩运河环水公园"
+  },
+  "水辺公園": {
+    "en": "Waterfront Park",
+    "zh": "水滨公园"
+  },
+  "天門橋と立山連峰の眺望が広がる富山屈指の美しい水辺散策路": {
+    "en": "Toyama’s scenic waterfront park featuring views of Tenmon Bridge and the Tateyama range",
+    "zh": "可远眺天门桥与立山连峰的富山绝美水滨步道"
+  },
+  "環水公園 カフェテラス": {
+    "en": "Kansui Park Cafe Terrace",
+    "zh": "环水公园 露天咖啡馆"
+  },
+  "カフェ・ロースタリー": {
+    "en": "Cafe & Roastery",
+    "zh": "咖啡厅 / 烘焙馆"
+  },
+  "運河と芝生を眺めながらひと息つける水辺のガラス張りカフェ": {
+    "en": "Glass-walled waterside cafe overlooking the canal and lawns",
+    "zh": "可眺望运河与草坪、尽享惬意时光的水边玻璃咖啡馆"
+  },
+  "富山県美術館": {
+    "en": "Toyama Prefectural Museum of Art and Design",
+    "zh": "富山县美术馆"
+  },
+  "美術館・展望": {
+    "en": "Museum & Observation",
+    "zh": "美术馆 / 展望台"
+  },
+  "アート鑑賞と屋上庭園「オノマトペの屋上」が楽しめる人気スポット": {
+    "en": "Popular destination combining art exhibitions with the rooftop Onomatopoeia Garden",
+    "zh": "可欣赏现代艺术与屋顶“拟声词花园”的知名文化地标"
+  },
+  "富山城址公園": {
+    "en": "Toyama Castle Ruin Park",
+    "zh": "富山城址公园"
+  },
+  "史跡・公園": {
+    "en": "Historical Park",
+    "zh": "历史古迹 / 公园"
+  },
+  "お堀と石垣、松川べりの並木道が美しい街なかの歴史公園": {
+    "en": "Historic downtown park with stone walls, moats, and cherry blossoms along Matsukawa River",
+    "zh": "坐拥护城河、古朴石垣与松川沿岸林荫大道的市区历史公园"
+  },
+  "総曲輪通り カフェ街": {
+    "en": "Sogawa Street Cafe Quarter",
+    "zh": "总曲轮街 咖啡街区"
+  },
+  "商店街・カフェ": {
+    "en": "Shopping Arcade & Cafe",
+    "zh": "商业街 / 咖啡馆"
+  },
+  "屋根付きアーケードと路地裏のこだわり珈琲店が集まる散策エリア": {
+    "en": "Covered arcade neighborhood dotted with cozy specialty coffee roasters",
+    "zh": "拥有雨棚拱廊、聚集众多精品特色咖啡馆的漫步街区"
+  },
+  "富山市ガラス美術館": {
+    "en": "Toyama Glass Art Museum",
+    "zh": "富山市玻璃美术馆"
+  },
+  "美術館・図書館": {
+    "en": "Museum & Library",
+    "zh": "美术馆 / 图书馆"
+  },
+  "隈研吾氏設計の木のぬくもりあふれる複合文化施設（TOYAMAキラリ）": {
+    "en": "Warm architectural cultural complex designed by Kengo Kuma (TOYAMA Kirari)",
+    "zh": "由建筑大师隈研吾设计、充满温暖木质质感的复合文化地标（TOYAMA Kirari）"
+  },
+  "日枝神社": {
+    "en": "Hie Shrine",
+    "zh": "日枝神社"
+  },
+  "神社・寺社": {
+    "en": "Shinto Shrine",
+    "zh": "神社 / 寺院"
+  },
+  "街なかの静寂に包まれた歴史ある参道と境内（山王さん）": {
+    "en": "A peaceful historic sanctuary with sacred approaches nestled in the city center",
+    "zh": "闹中取静、底蕴深厚且受市民喜爱的历史古刹（山王大人）"
+  },
+  "指定した地点": {
+    "en": "Selected Location",
+    "zh": "选定位置"
+  },
+  "指定地点": {
+    "en": "Selected Point",
+    "zh": "选定地点"
+  },
+  "選択した施設": {
+    "en": "Selected Facility",
+    "zh": "选定设施"
+  },
+  "施設名を取得中...": {
+    "en": "Loading place details...",
+    "zh": "正在获取设施名称..."
+  },
+  "出立地": {
+    "en": "Start Point",
+    "zh": "启程地"
+  },
+  "いざ出立": {
+    "en": "Depart",
+    "zh": "即刻启程"
+  }
+}

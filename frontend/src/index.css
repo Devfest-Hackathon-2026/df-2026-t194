@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    overscroll-behavior: none;
+    touch-action: pan-x pan-y;
+  }
+
+  /* マップ操作時の画像タイル・SVG・要素のブラウザドラッグ＆選択を防止 */
+  .gm-style,
+  .gm-style img,
+  .gm-style div,
+  .gm-style svg,
+  [data-map-viewport],
+  [data-map-viewport] img,
+  [data-map-viewport] svg {
+    -webkit-user-drag: none !important;
+    user-drag: none !important;
+    -webkit-user-select: none !important;
+    user-select: none !important;
+    -webkit-touch-callout: none !important;
+  }
+}
+
+/* スクロールバー非表示ユーティリティ */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* BeautifulUI LoadingState & Ink Tokens */
+:root {
+  --ink: #09090b;
+  --ink-2: #27272a;
+  --ink-3: #71717a;
+  --tooltip-bg: #18181b;
+  --tooltip-muted: #a1a1aa;
+  --shadow-overlay: 0 12px 32px -4px rgba(0, 0, 0, 0.12), 0 4px 12px -2px rgba(0, 0, 0, 0.08);
+}
+
+.dark {
+  --ink: #f4f4f5;
+  --ink-2: #e4e4e7;
+  --ink-3: #a1a1aa;
+  --tooltip-bg: #09090b;
+  --tooltip-muted: #71717a;
+  --shadow-overlay: 0 12px 32px -4px rgba(0, 0, 0, 0.5), 0 4px 12px -2px rgba(0, 0, 0, 0.4);
+}
+
+/* ========================================================
+   Japanese Traditional (Edo Scroll) Theme Variables & Styles
+   ======================================================== */
+[data-theme="traditional"] {
+  --washi-bg: #faf6ed;
+  --washi-border: #d4c5a9;
+  --washi-ink: #2b2621;
+  --washi-red: #c73e3a;
+  --washi-gold: #c5a059;
+  --washi-ai: #165e83;
+}
+
+[data-theme="traditional"].dark,
+[data-theme="traditional"] .dark {
+  --washi-bg: #1e1b18;
+  --washi-border: #4a3d2e;
+  --washi-ink: #f0eae1;
+  --washi-red: #d94b47;
+  --washi-gold: #dfb96c;
+  --washi-ai: #4a8cae;
+}
+
+/* 巻物の紙・和紙風テクスチャ（点々・水玉ドットを排し、落ち着いた風合いに） */
+.washi-pattern {
+  background-color: var(--washi-bg);
+  background-image: 
+    linear-gradient(to right, rgba(120, 60, 20, 0.04) 0%, transparent 6%, transparent 94%, rgba(120, 60, 20, 0.04) 100%);
+  background-size: 100% 100%;
+}
+
+/* 巻物展開アニメーション */
+@keyframes scroll-unroll {
+  0% {
+    transform: scaleX(0.7);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+.animate-scroll-unroll {
+  animation: scroll-unroll 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  transform-origin: center;
+}
+
+/* 落款印スタンプアニメーション */
+@keyframes stamp-press {
+  0% {
+    transform: scale(1.4) rotate(-8deg);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(0.92) rotate(-2deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) rotate(-3deg);
+    opacity: 1;
+  }
+}
+
+.animate-stamp {
+  animation: stamp-press 0.28s ease-out forwards;
+}
+
+.bg-ink {
+  background-color: var(--ink);
+}
+
+.text-ink {
+  color: var(--ink);
+}
+
+.text-ink-3 {
+  color: var(--ink-3);
+}
+
+.shadow-overlay {
+  box-shadow: var(--shadow-overlay);
+}
+
+@keyframes pixel-on {
+  0%, 100% {
+    opacity: 0.15;
+  }
+  50% {
+    opacity: 0.95;
+  }
+}
+
+@keyframes shimmer-text {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  span[style*="pixel-on"] {
+    animation: none !important;
+    opacity: 0.15 !important;
+  }
+  span[style*="shimmer-text"] {
+    animation: none !important;
+  }
+}
+

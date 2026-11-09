@@ -1,0 +1,110 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Validate upload-critical fields per image; keep this small enough that five
+    // images plus the route schema fit Firestore's 1,000-expression budget.
+    function validSnap(index) {
+      let s = request.resource.data.snaps[index];
+      return s.mainImageUrl is string && s.mainImageUrl.size() > 0 && s.mainImageUrl.size() <= 120000
+        && s.selfieImageUrl is string && s.selfieImageUrl.size() <= 30000
+        && s.spotName is string
+        && s.caption is string
+        && s.lat is number && s.lat >= -90 && s.lat <= 90
+        && s.lng is number && s.lng >= -180 && s.lng <= 180;
+    }
+
+    function validSnaps() {
+      let snaps = request.resource.data.snaps;
+      return snaps is list
+        && snaps.size() >= 2 && snaps.size() <= 5
+        && validSnap(0) && validSnap(1)
+        && (snaps.size() < 3 || validSnap(2))
+        && (snaps.size() < 4 || validSnap(3))
+        && (snaps.size() < 5 || validSnap(4));
+    }
+
+    function validRouteCreate(routeId) {
+      let d = request.resource.data;
+      return request.auth != null
+        && d.ownerUid == request.auth.uid
+        && d.createdAt == request.time && d.updatedAt == request.time
+        && d.expiresAt is timestamp
+        && d.expiresAt >= request.time + duration.value(13, 'd')
+        && d.expiresAt <= request.time + duration.value(14, 'd') + duration.value(5, 'm')
+        && d.keys().hasOnly([
+          'id', 'authorName', 'authorHandle', 'authorAvatar', 'authorBadge', 'scope', 'circleName', 'encodedPolyline',
+          'createdAtLabel', 'daysElapsed', 'title', 'summary', 'areaLabel', 'tags', 'color',
+          'snaps', 'pathXY', 'pathGeo', 'distanceKm', 'durationMin', 'elevationGainM',
+          'likesCount', 'likedByMe', 'walkedCount', 'walkedThisWeek', 'walkedByMe',
+          'reactions', 'ttlDaysRemaining', 'isExpiringSoon', 'serverCreatedAt',
+          'ownerUid', 'createdAt', 'updatedAt', 'expiresAt', 'photoPoints'
+        ])
+        && (!('encodedPolyline' in d) || (d.encodedPolyline is string && d.encodedPolyline.size() <= 100000))
+        && (!('photoPoints' in d) || (d.photoPoints is list && d.photoPoints.size() >= 2 && d.photoPoints.size() <= 100))
+        && d.id == routeId
+        && routeId.size() >= 8 && routeId.size() <= 80
+        && d.authorName is string && d.authorName.size() <= 60 && d.authorName.size() > 0
+        && d.scope == 'global'
+        && (!('circleName' in d) || (d.circleName is string && d.circleName.size() <= 80))
+        && d.title is string && d.title.size() <= 100 && d.title.size() > 0
+        && d.summary is string && d.summary.size() <= 1000
+        && d.tags is list && d.tags.size() <= 12
+        && validSnaps()
+        && d.pathXY is list && d.pathXY.size() >= 2 && d.pathXY.size() <= 300
+        && d.pathGeo is list && d.pathGeo.size() >= 2 && d.pathGeo.size() <= 300
+        && (d.distanceKm is number && d.distanceKm >= 0 && d.distanceKm <= 60)
+        && (d.durationMin is number && d.durationMin >= 0 && d.durationMin <= 1440)
+        && (d.elevationGainM is number && d.elevationGainM >= 0 && d.elevationGainM <= 10000)
+        && d.likesCount == 0
+        && d.walkedCount == 0
+        && d.walkedThisWeek == 0
+        && (d.ttlDaysRemaining is number && d.ttlDaysRemaining >= 0 && d.ttlDaysRemaining <= 30)
+        && d.serverCreatedAt is string && d.serverCreatedAt.size() <= 40;
+    }
+
+    function signedIn() { return request.auth != null; }
+    function owner() { return signedIn() && resource.data.ownerUid == request.auth.uid; }
+    function validReactionChange(routeId, kind, field) {
+      let path = /databases/$(database)/documents/sanpo_routes/$(routeId)/$(kind)/$(request.auth.uid);
+      let before = exists(path);
+      let after = existsAfter(path);
+      let oldCount = resource.data.get(field, 0);
+      return request.resource.data.diff(resource.data).affectedKeys().hasOnly([field])
+        && request.resource.data[field] is int && request.resource.data[field] >= 0
+        && ((!before && after && request.resource.data[field] == oldCount + 1)
+          || (kind == 'likes' && before && !after && request.resource.data[field] == oldCount - 1));
+    }
+    function validRecordChange(routeId, field, delta) {
+      let parent = /databases/$(database)/documents/sanpo_routes/$(routeId);
+      return exists(parent)
+        && getAfter(parent).data[field] == get(parent).data.get(field, 0) + delta;
+    }
+    match /sanpo_routes/{routeId} {
+      allow read: if true;
+      allow create: if validRouteCreate(routeId);
+      allow update: if signedIn() && (
+        (owner() && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['title', 'summary', 'updatedAt'])
+          && request.resource.data.title is string && request.resource.data.title.size() > 0 && request.resource.data.title.size() <= 100
+          && request.resource.data.summary is string && request.resource.data.summary.size() <= 1000
+          && request.resource.data.updatedAt == request.time)
+        || validReactionChange(routeId, 'likes', 'likesCount')
+        || validReactionChange(routeId, 'walks', 'walkedCount'));
+      allow delete: if owner();
+      match /likes/{uid} {
+        allow read: if signedIn() && request.auth.uid == uid;
+        allow create: if signedIn() && request.auth.uid == uid
+          && request.resource.data.keys().hasOnly(['createdAt']) && request.resource.data.createdAt == request.time
+          && validRecordChange(routeId, 'likesCount', 1);
+        allow delete: if signedIn() && request.auth.uid == uid && validRecordChange(routeId, 'likesCount', -1);
+        allow update: if false;
+      }
+      match /walks/{uid} {
+        allow read: if signedIn() && request.auth.uid == uid;
+        allow create: if signedIn() && request.auth.uid == uid
+          && request.resource.data.keys().hasOnly(['createdAt']) && request.resource.data.createdAt == request.time
+          && validRecordChange(routeId, 'walkedCount', 1);
+        allow update, delete: if false;
+      }
+    }
+  }
+}
