@@ -76,11 +76,25 @@ flowchart LR
 
 ```text
 .
-├── backend/          # FastAPI バックエンド (Cloud Run)
-│   ├── app/          # ルーター、Gemini連携、Maps計測、EmbeddingGemma推論
-│   └── tests/        # 単体・回帰テスト
-├── frontend/       # React + TypeScript + Vite フロントエンド
-│   └── src/          # UIコンポーネント、マップ描画、EXIF解析、i18n
+├── backend/                  # FastAPI バックエンド (Cloud Run)
+│   ├── app/
+│   │   ├── main.py           # API ルーター & SSE ストリーミング配信
+│   │   ├── models.py         # リクエスト / レスポンス等の Pydantic モデル定義
+│   │   └── services/         # Gemini連携、Maps/標高計測、EmbeddingGemma推論
+│   ├── Dockerfile            # Cloud Run 本番用コンテナ定義
+│   └── requirements.txt      # バックエンド依存関係
+└── frontend/                 # React + TypeScript + Vite フロントエンド
+    ├── public/               # 静的アセット（アイコン、SVG、ファビコン）
+    ├── scripts/              # ルール・ルート回帰検証スクリプト
+    ├── src/
+    │   ├── components/       # HUD、マップ、標高チャート、モーダル等のUI部品
+    │   ├── data/             # 地図スタイル、施設ピン、プリセットデータ
+    │   ├── i18n/             # 多言語対応リソース（日・英・中）
+    │   ├── services/         # API通信、EXIF GPS解析、Firebase/Firestore連携
+    │   ├── types/            # ルート、散歩、テーマ等の型定義
+    │   └── utils/            # ユーティリティ関数
+    ├── firebase.json         # Firebase Hosting & Firestore 設定
+    └── package.json          # フロントエンド依存関係 & スクリプト
 ```
 
 ---
