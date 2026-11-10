@@ -4,7 +4,7 @@ import { computeTurnDirection, formatDuration } from "@/data/complexRoutes";
 import { ComputedRoute, TurnDirectionType } from "@/types/route";
 import { ThemeMode } from "@/types/theme";
 import { RuneIcon } from "@/components/ui/RuneIcon";
-import { KammonCompass, ToriiIcon } from "@/components/traditional/TraditionalSvgs";
+import { ToriiIcon } from "@/components/traditional/TraditionalSvgs";
 import { AppLanguage, I18N } from "./hud/hudTypes";
 import { HeaderEndpointsBar } from "./hud/HeaderEndpointsBar";
 import { GuidanceBottomHUD, GuidanceHUD } from "./hud/GuidanceHUD";
@@ -381,29 +381,8 @@ export const FloatingHUD: React.FC<FloatingHUDProps> = ({
             : "translate-y-0 opacity-100"
         }`}
       >
-        {/* コンパス ＆ スタート地点移動ボタン */}
+        {/* スタート地点移動ボタン */}
         <div className="pointer-events-auto self-end mr-3.5 md:mr-6 flex flex-col gap-2 transition-all duration-300">
-          <button
-            type="button"
-            onClick={onResetNorth}
-            title={isTraditional ? t.northResetTrad : t.northReset}
-            className={`flex h-12 w-12 items-center justify-center rounded-2xl border shadow-lg backdrop-blur-2xl transition active:scale-95 ${
-              isTraditional
-                ? isDark
-                  ? "border-amber-700/60 bg-[#1e1b18]/90 text-amber-300 shadow-black/50 hover:bg-[#282420]"
-                  : "border-amber-800/40 bg-[#faf6ed]/95 text-amber-900 shadow-amber-950/15 hover:bg-amber-100/80"
-                : isDark
-                ? "border-zinc-800/60 bg-zinc-950/75 text-[#EA4335] hover:bg-zinc-900/80"
-                : "border-zinc-200/60 bg-white/75 text-[#EA4335] hover:bg-zinc-100/80"
-            }`}
-          >
-            {isTraditional ? (
-              <KammonCompass size={28} className={isDark ? "text-amber-400" : "text-amber-900"} />
-            ) : (
-              <RuneIcon name="code-compass" size={20} className="text-[#EA4335]" />
-            )}
-          </button>
-
           <button
             type="button"
             onClick={onRecenter}
